@@ -1,0 +1,35 @@
+{
+  "name": "@czhw/create-template-cli",
+  "version": "1.0.0",
+  "description": "CLI for generating web project templates",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-template": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "templates",
+    "web",
+    "html",
+    "vue",
+    "react",
+    "angular"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.10",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.1.1",
+    "ora": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}
+
